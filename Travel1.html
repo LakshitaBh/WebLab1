@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+	<link rel = "stylesheet" type="text/css" href= "G:\Web Lab\Travel2.css"/>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Travel.</title>
+</head>
+<body>
+<p align = "center">
+<a href= "#">
+	<img src = "G:\Web Lab\travelS.jpg" height = "75" length  = "100">
+</a>
+</p>
+<nav class="navbar navbar-default">
+<div class="container-fluid head">
+<ul class="nav navbar-nav">
+  <li><a href="#">Home</a></li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Destinations
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="#">Kerala</a></li>
+      <li><a href="#">Tamil Nadu</a></li>
+      <li><a href="#">Karnataka</a></li>
+      <li><a href="#">Andhra Pradesh</a></li>
+      <li><a href="#">Telangana</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Blog</a></li>
+  <li><a href="#">About Us</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+  <li><a href="Travel2.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+</ul>
+<form class="navbar-form navbar-right" action="/action_page.php">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+</nav>
+<div class = "allepey">
+	<img src = "G:\Web Lab\banner.jpg">
+</div>
+<h2 class= "intro">South Indian Destinations</h2>
+<p class = "intro"><strong>Kerala, Tamil Nadu, Karnataka, Andhra Pradesh and Telangana</strong></p>
+
+<p class = "main-text">South India is gifted with everything a tourist looks for. It has got beautiful hill stations, backwaters, wild life sanctuaries, ancient historical monuments, waterfalls and more. Enjoy a houseboat cruise at the famous Alleppey backwaters in Kerala, walk through the historical ruins of Hampi in Karnataka, visit the ancient temples of Tamil Nadu and much more. South Indian food is popular all over the world. Try the delicious South Indian cuisine yourself as you travel along the various destinations in South India. </p>
+
+<h3 style="font-family: Baskerville; font-style: italic;color: teal;">On our <span style="color:gray">website:</span></h3>
+<ol class="ordered">
+  <li>Sign Up/Login</li>
+  <li>Read best places, cuisines and specialities of a destination in South India</li>
+  <li>Select a place to visit</li>
+  <li>Make a booking</li>
+  <li>Choose transport system if required</li>
+  <li>Make an enquiry</li>
+</ol>
+
+
+<h3 style="font-family: Baskerville; font-style: italic; color: teal;">Transport<span style="font-size: 16px; color:gray"> facilities through TravelS.</span></h3>
+<div class="marketing-show">
+<ul>
+<li>A fleet of 100+ vehicles including cars to coaches.</li>
+<li>Experienced, reliable and skilful Drivers.</li>
+<li>GPS enabled vehicles to ensure safety.</li>
+<li>Latest vehicles that are less than 3 years old.</li>
+<li>Airport arrival / departure assistance throughout the tour.</li>
+</ul>
+</div>
+
+
+<div class ="container-fluid">
+  <div class="row-fluid">
+<div class="col-md-offset-4 col-md-4" id="box">
+<h4 align = "center">Enquiry Form</h4>
+<hr>
+<form class="form-horizontal" id="contact_form">
+<fieldset>
+
+<div class="form-group">
+
+<div class="col-md-12">
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input name="first_name" placeholder="Name" class="form-control" type="text">
+</div>
+</div>
+</div>
+<div class="form-group">
+
+<div class="col-md-12">
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+    <input name="email" placeholder="E-Mail Address" class="form-control" type="text">
+</div>
+</div>
+</div>
+<div class="form-group">
+
+<div class="col-md-12 inputGroupContainer">
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+    <textarea class="form-control" name="comment" placeholder="Message"></textarea>
+</div>
+</div>
+</div>
+
+<div class="form-group" style="padding-left: 12px;padding-right: 12px">
+  <label>Select Departure City:</label>
+  <select class="form-control">
+    <option>Delhi</option>
+    <option>Mumbai</option>
+    <option>Jaipur</option>
+    <option>Hyderabad</option>
+    <option>Lucknow</option>
+    <option>Pune</option>
+  </select>
+</div>
+
+<div class="form-group">
+
+<div class="col-md-12">
+    <form>
+      <label>Select Destination:</label>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Kerala</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Tamil Nadu</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="" >Karnataka</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="" >Andhra Pradesh</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="" >Telangana</label>
+    </div>
+  </form>
+</div>
+</div>
+
+<div class="form-group">
+
+<div class="col-md-12">
+
+<label>Transport Arrangements?</label>
+  <form>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">Yes
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">No
+    </label>
+  </form>
+
+</div>
+</div>  
+
+<div class="form-group">
+
+<div class="col-md-12">
+<button type="submit" class="btn btn-warning pull-right">Send <span class="glyphicon glyphicon-send"></span></button>
+</div>
+</div>
+</fieldset>
+
+</form>
+</div> 
+</div>
+</div>
+
+</body>
+</html>
